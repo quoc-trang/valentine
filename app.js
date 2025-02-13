@@ -17,7 +17,7 @@ yesBtn.addEventListener('click', function(){
     const dogImg = document.querySelector('img.dog-image')
     const textH1 = document.querySelector('h1.text')
     textH1.textContent = 'OkAY, YAY'
-
+    dogImg.className = 'new-image'
     dogImg.src = yesUrl
 
 })
