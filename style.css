@@ -18,6 +18,7 @@
 .action .yes {
   background-color: green;
   transition: background 0.3s;
+  display: block;
 }
 
 .action .yes:hover {
@@ -33,13 +34,16 @@
   background-color: darkred;
 }
 
+button.reload {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 30px;
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   img.dog-image {
     height: 300px;
-  }
-
-  img.new-image{
-    height: 200px;
   }
 
   h1.text {
